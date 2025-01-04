@@ -1,0 +1,21 @@
+{
+  "name": "tech-article-podcaster",
+  "version": "1.0.0",
+  "description": "Convert technical articles to two-speaker podcasts",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "fluent-ffmpeg": "^2.1.3",
+    "mammoth": "^1.6.0",
+    "multer": "^1.4.5-lts.1",
+    "node-gtts": "^2.0.2",
+    "pdf2json": "^2.0.2",
+    "play-sound": "^1.1.6"
+  }
+}
